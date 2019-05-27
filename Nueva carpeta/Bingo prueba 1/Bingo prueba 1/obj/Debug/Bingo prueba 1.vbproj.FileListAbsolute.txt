@@ -9,3 +9,14 @@ C:\Users\Alumno\Desktop\Bingo prueba 1\Bingo prueba 1\obj\Debug\Bingo prueba 1.v
 C:\Users\Alumno\Desktop\Bingo prueba 1\Bingo prueba 1\obj\Debug\Bingo prueba 1.exe
 C:\Users\Alumno\Desktop\Bingo prueba 1\Bingo prueba 1\obj\Debug\Bingo prueba 1.xml
 C:\Users\Alumno\Desktop\Bingo prueba 1\Bingo prueba 1\obj\Debug\Bingo prueba 1.pdb
+C:\Users\Alumno\Source\Repos\PioIX\tp-no2-5a-grupo-05\Nueva carpeta\Bingo prueba 1\Bingo prueba 1\bin\Debug\Bingo prueba 1.exe.config
+C:\Users\Alumno\Source\Repos\PioIX\tp-no2-5a-grupo-05\Nueva carpeta\Bingo prueba 1\Bingo prueba 1\obj\Debug\Bingo prueba 1.exe
+C:\Users\Alumno\Source\Repos\PioIX\tp-no2-5a-grupo-05\Nueva carpeta\Bingo prueba 1\Bingo prueba 1\obj\Debug\Bingo prueba 1.xml
+C:\Users\Alumno\Source\Repos\PioIX\tp-no2-5a-grupo-05\Nueva carpeta\Bingo prueba 1\Bingo prueba 1\obj\Debug\Bingo prueba 1.pdb
+C:\Users\Alumno\Source\Repos\PioIX\tp-no2-5a-grupo-05\Nueva carpeta\Bingo prueba 1\Bingo prueba 1\bin\Debug\Bingo prueba 1.exe
+C:\Users\Alumno\Source\Repos\PioIX\tp-no2-5a-grupo-05\Nueva carpeta\Bingo prueba 1\Bingo prueba 1\bin\Debug\Bingo prueba 1.pdb
+C:\Users\Alumno\Source\Repos\PioIX\tp-no2-5a-grupo-05\Nueva carpeta\Bingo prueba 1\Bingo prueba 1\bin\Debug\Bingo prueba 1.xml
+C:\Users\Alumno\Source\Repos\PioIX\tp-no2-5a-grupo-05\Nueva carpeta\Bingo prueba 1\Bingo prueba 1\obj\Debug\Bingo prueba 1.vbprojResolveAssemblyReference.cache
+C:\Users\Alumno\Source\Repos\PioIX\tp-no2-5a-grupo-05\Nueva carpeta\Bingo prueba 1\Bingo prueba 1\obj\Debug\Bingo_prueba_1.frmBingo.resources
+C:\Users\Alumno\Source\Repos\PioIX\tp-no2-5a-grupo-05\Nueva carpeta\Bingo prueba 1\Bingo prueba 1\obj\Debug\Bingo_prueba_1.Resources.resources
+C:\Users\Alumno\Source\Repos\PioIX\tp-no2-5a-grupo-05\Nueva carpeta\Bingo prueba 1\Bingo prueba 1\obj\Debug\Bingo prueba 1.vbproj.GenerateResource.Cache

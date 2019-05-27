@@ -19,6 +19,7 @@
                 .Size = New System.Drawing.Size(90, 80) ' Asignas el tamaño del objeto
             End With
             posicionX = posicionX + 80
+            'pepepeppe
             If posicionX >= Me.Width Then
                 posicionX = 20
                 posicionY = posicionY + 100
