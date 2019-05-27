@@ -28,8 +28,9 @@ Partial Class frmBingo
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(746, 588)
+        Me.ClientSize = New System.Drawing.Size(1034, 712)
         Me.Name = "frmBingo"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Bingo"
         Me.ResumeLayout(False)
 

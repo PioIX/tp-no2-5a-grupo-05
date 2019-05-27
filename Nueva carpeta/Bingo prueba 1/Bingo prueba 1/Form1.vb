@@ -3,32 +3,35 @@
 
     End Sub
     Private Sub frmBingo_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        Me.Width = 1050
+        Me.Height = 750
+
         CreaBotones()
     End Sub
     Private Sub CreaBotones()
         Dim i As Integer
+        Dim btn(90) As Button
+
         ' Creas el objeto boton
         Dim posicionX = 20, posicionY = 20
-        For i = 0 To 100
-            Dim btn As New Button()
-            With btn
-                .Visible = True
-                .Name = "Button" + i  ' Asignas el nombre del objeto
-                .Text = i     ' Asignas el texto del objeto
-                .Location = New System.Drawing.Point(posicionX, posicionY) ' Asignas la posición del objeto
-                .Size = New System.Drawing.Size(90, 80) ' Asignas el tamaño del objeto
-            End With
-            posicionX = posicionX + 80
-            'pepepeppe
-            If posicionX >= Me.Width Then
+        For i = 1 To 90
+            btn(i) = New Button()
+            Me.Controls.Add(btn(i))
+            If posicionX > 1000 Then
                 posicionX = 20
-                posicionY = posicionY + 100
+                posicionY = posicionY + 75
             End If
+            With btn(i)
+                .Visible = True
+                .Text = i     ' Asignas el texto del objeto
+                .Height = 75
+                .Width = 100
+                .Top = posicionY
+                .Left = posicionX
+            End With
+            posicionX = posicionX + 100
+            'AddHandler btn(i).Click, AddressOf Button_Click   ' Asocias el evento al método Button_Click
 
-
-            AddHandler btn.Click, AddressOf Button_Click   ' Asocias el evento al método Button_Click
-
-            Me.Controls.Add(btn) ' Agregas el botón al formulario.
         Next
     End Sub
     Private Sub Button_Click(ByVal sender As Object, ByVal e As EventArgs)
