@@ -20,3 +20,15 @@ C:\Users\Alumno\Source\Repos\PioIX\tp-no2-5a-grupo-05\Nueva carpeta\Bingo prueba
 C:\Users\Alumno\Source\Repos\PioIX\tp-no2-5a-grupo-05\Nueva carpeta\Bingo prueba 1\Bingo prueba 1\obj\Debug\Bingo_prueba_1.frmBingo.resources
 C:\Users\Alumno\Source\Repos\PioIX\tp-no2-5a-grupo-05\Nueva carpeta\Bingo prueba 1\Bingo prueba 1\obj\Debug\Bingo_prueba_1.Resources.resources
 C:\Users\Alumno\Source\Repos\PioIX\tp-no2-5a-grupo-05\Nueva carpeta\Bingo prueba 1\Bingo prueba 1\obj\Debug\Bingo prueba 1.vbproj.GenerateResource.Cache
+C:\Users\Willys\Source\Repos\PioIX\tp-no2-5a-grupo-05\Nueva carpeta\Bingo prueba 1\Bingo prueba 1\bin\Debug\Bingo prueba 1.exe.config
+C:\Users\Willys\Source\Repos\PioIX\tp-no2-5a-grupo-05\Nueva carpeta\Bingo prueba 1\Bingo prueba 1\bin\Debug\Bingo prueba 1.exe
+C:\Users\Willys\Source\Repos\PioIX\tp-no2-5a-grupo-05\Nueva carpeta\Bingo prueba 1\Bingo prueba 1\bin\Debug\Bingo prueba 1.pdb
+C:\Users\Willys\Source\Repos\PioIX\tp-no2-5a-grupo-05\Nueva carpeta\Bingo prueba 1\Bingo prueba 1\bin\Debug\Bingo prueba 1.xml
+C:\Users\Willys\Source\Repos\PioIX\tp-no2-5a-grupo-05\Nueva carpeta\Bingo prueba 1\Bingo prueba 1\obj\Debug\Bingo prueba 1.vbprojResolveAssemblyReference.cache
+C:\Users\Willys\Source\Repos\PioIX\tp-no2-5a-grupo-05\Nueva carpeta\Bingo prueba 1\Bingo prueba 1\obj\Debug\Bingo_prueba_1.frmBingo.resources
+C:\Users\Willys\Source\Repos\PioIX\tp-no2-5a-grupo-05\Nueva carpeta\Bingo prueba 1\Bingo prueba 1\obj\Debug\Bingo_prueba_1.Resources.resources
+C:\Users\Willys\Source\Repos\PioIX\tp-no2-5a-grupo-05\Nueva carpeta\Bingo prueba 1\Bingo prueba 1\obj\Debug\Bingo prueba 1.vbproj.GenerateResource.Cache
+C:\Users\Willys\Source\Repos\PioIX\tp-no2-5a-grupo-05\Nueva carpeta\Bingo prueba 1\Bingo prueba 1\obj\Debug\Bingo prueba 1.vbproj.CoreCompileInputs.cache
+C:\Users\Willys\Source\Repos\PioIX\tp-no2-5a-grupo-05\Nueva carpeta\Bingo prueba 1\Bingo prueba 1\obj\Debug\Bingo prueba 1.exe
+C:\Users\Willys\Source\Repos\PioIX\tp-no2-5a-grupo-05\Nueva carpeta\Bingo prueba 1\Bingo prueba 1\obj\Debug\Bingo prueba 1.xml
+C:\Users\Willys\Source\Repos\PioIX\tp-no2-5a-grupo-05\Nueva carpeta\Bingo prueba 1\Bingo prueba 1\obj\Debug\Bingo prueba 1.pdb
