@@ -2,6 +2,7 @@
     Dim Estado As Single
     Dim btn(90) As Button
     Dim i As Integer
+    Dim posicionX = 20, posicionY = 120
 
     Private Sub btnBut_Click(sender As Object, e As EventArgs)
 
@@ -16,10 +17,6 @@
     End Sub
     Private Sub CreaBotones()
 
-
-
-        ' Creas el objeto boton
-        Dim posicionX = 20, posicionY = 120
         For i = 1 To 90
             btn(i) = New Button()
             Me.Controls.Add(btn(i))
@@ -29,32 +26,23 @@
             End If
             With btn(i)
                 .Visible = True
-                .Text = i     ' Asignas el texto del objeto
+                .Text = i
                 .Height = 75
                 .Width = 100
                 .Top = posicionY
                 .Left = posicionX
                 .Tag = i
+                .Font = New Font("Comic Sans MS", 30)
             End With
             posicionX = posicionX + 100
-            AddHandler btn(i).Click, AddressOf Button_Click   ' Asocias el evento al método Button_Click
-
+            AddHandler btn(i).Click, AddressOf Button_Click
         Next
     End Sub
     Private Sub Button_Click(ByVal sender As Object, ByVal e As EventArgs)
-        Dim Numero As Integer = Integer.Parse(sender.tag)
-        For i = 1 To 90
-            If i <> Numero Then
-                btn(i).Visible = False
-                Label1.Visible = False
-
-            End If
-        Next
-        btn(Numero).Top = 0
-        btn(Numero).Left = 0
-        btn(Numero).Height = Me.Height - 100
-        btn(Numero).Width = Me.Width - 300
-
+        Numero = Integer.Parse(sender.tag)
+        frmExposición.Show()
+        btn(Numero).BackColor = Color.Yellow
+        Me.Hide()
     End Sub
 
 

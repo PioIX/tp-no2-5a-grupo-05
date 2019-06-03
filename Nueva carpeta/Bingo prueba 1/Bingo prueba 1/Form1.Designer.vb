@@ -28,10 +28,10 @@ Partial Class frmBingo
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Poplar Std", 48.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Font = New System.Drawing.Font("Comic Sans MS", 48.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.Location = New System.Drawing.Point(290, 9)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(466, 76)
+        Me.Label1.Size = New System.Drawing.Size(708, 90)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "Bingo Salesiano PioIX"
         '
