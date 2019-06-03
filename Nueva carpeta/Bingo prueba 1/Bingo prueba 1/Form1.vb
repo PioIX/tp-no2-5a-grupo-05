@@ -45,5 +45,13 @@
         Me.Hide()
     End Sub
 
+    Private Sub frmBingo_KeyPress(sender As Object, e As KeyPressEventArgs) Handles Me.KeyPress
+        MsgBox("Entraste")
+        Select Case Asc(e.KeyChar)
+            Case 78, 110 ' mayúsculas y minúsculas
+                frmLínea.Show()
+                Me.Hide()
 
+        End Select
+    End Sub
 End Class

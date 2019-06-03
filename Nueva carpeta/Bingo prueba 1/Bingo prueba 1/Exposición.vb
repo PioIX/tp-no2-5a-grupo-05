@@ -7,4 +7,8 @@
         frmBingo.Show()
         Me.Close()
     End Sub
+
+    Private Sub frmVolver_KeyPress(sender As Object, e As KeyPressEventArgs) Handles frmVolver.KeyPress
+        MsgBox("Entraste mas que entrin")
+    End Sub
 End Class
