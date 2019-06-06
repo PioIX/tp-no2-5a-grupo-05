@@ -9,6 +9,9 @@
     End Sub
 
     Private Sub frmVolver_KeyPress(sender As Object, e As KeyPressEventArgs) Handles frmVolver.KeyPress
-        MsgBox("Entraste mas que entrin")
+    End Sub
+
+    Private Sub lblName_Click(sender As Object, e As EventArgs) Handles lblName.Click
+
     End Sub
 End Class

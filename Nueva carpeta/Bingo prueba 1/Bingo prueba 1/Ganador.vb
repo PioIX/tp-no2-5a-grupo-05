@@ -1,15 +1,12 @@
-﻿Public Class frmLínea
+﻿Public Class frmGanador
     Dim a As Integer
-
-    Private Sub frmLínea_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+    Private Sub frmGanador_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Timer1.Enabled = True
         Timer1.Interval = 800
         a = 0
-
     End Sub
 
     Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
-
         a = a + 1
         Select Case a
             Case 0
@@ -31,7 +28,7 @@
     End Sub
 
     Private Sub btnVolver_Click(sender As Object, e As EventArgs) Handles btnVolver.Click
-        Me.Close()
+        Me.Hide()
         frmBingo.Show()
     End Sub
 End Class

@@ -22,25 +22,38 @@ Partial Class frmBingo
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Me.Label1 = New System.Windows.Forms.Label()
+        Me.lblTitulo = New System.Windows.Forms.Label()
+        Me.lblBorrar = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
-        'Label1
+        'lblTitulo
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Comic Sans MS", 48.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(290, 9)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(708, 90)
-        Me.Label1.TabIndex = 0
-        Me.Label1.Text = "Bingo Salesiano PioIX"
+        Me.lblTitulo.AutoSize = True
+        Me.lblTitulo.Font = New System.Drawing.Font("Comic Sans MS", 48.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblTitulo.Location = New System.Drawing.Point(136, 9)
+        Me.lblTitulo.Name = "lblTitulo"
+        Me.lblTitulo.Size = New System.Drawing.Size(708, 90)
+        Me.lblTitulo.TabIndex = 0
+        Me.lblTitulo.Text = "Bingo Salesiano PioIX"
+        '
+        'lblBorrar
+        '
+        Me.lblBorrar.AutoSize = True
+        Me.lblBorrar.Font = New System.Drawing.Font("Calisto MT", 15.25!)
+        Me.lblBorrar.ForeColor = System.Drawing.Color.Red
+        Me.lblBorrar.Location = New System.Drawing.Point(7, 25)
+        Me.lblBorrar.Name = "lblBorrar"
+        Me.lblBorrar.Size = New System.Drawing.Size(135, 48)
+        Me.lblBorrar.TabIndex = 1
+        Me.lblBorrar.Text = "Modo Borrar: " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Activado"
         '
         'frmBingo
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1034, 712)
-        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.lblBorrar)
+        Me.Controls.Add(Me.lblTitulo)
         Me.Name = "frmBingo"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Bingo"
@@ -49,5 +62,6 @@ Partial Class frmBingo
 
     End Sub
 
-    Friend WithEvents Label1 As Label
+    Friend WithEvents lblTitulo As Label
+    Friend WithEvents lblBorrar As Label
 End Class
