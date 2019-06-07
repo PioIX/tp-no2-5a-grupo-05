@@ -4,10 +4,8 @@
     Dim i, a As Integer
     Private Delete As Boolean
     Dim posicionX = 20, posicionY = 120
+    Dim varError As String
 
-    Private Sub btnBut_Click(sender As Object, e As EventArgs)
-
-    End Sub
     Private Sub frmBingo_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Me.Width = 1050
         Me.Height = 850
@@ -18,7 +16,6 @@
         lblBorrar.Visible = False
         a = 1
         CreaBotones()
-
     End Sub
     Private Sub CreaBotones()
 
@@ -38,7 +35,7 @@
                 .Left = posicionX
                 .Tag = i
                 .BackColor = Color.White
-                .Font = New Font("Comic Sans MS", 30)
+                .Font = New Font("Verdana", 18)
             End With
             If i < 10 Then
                 btn(i).Text = "0" & i
@@ -49,18 +46,34 @@
             AddHandler btn(i).KeyPress, AddressOf Button_KeyPress
         Next
     End Sub
+
+    Private Sub btnAtras_Click(sender As Object, e As EventArgs) Handles btnAtras.Click
+        For Y = 1 To 90
+            If btn(Y).BackColor = Color.Yellow Then
+                btn(Y).BackColor = Color.White
+                Label2.Text = varError
+            End If
+        Next
+    End Sub
+
     Private Sub Button_Click(ByVal sender As Object, ByVal e As EventArgs)
         Numero = Integer.Parse(sender.tag)
 
         If Delete = False Then
             frmExposición.Show()
             btn(Numero).BackColor = Color.Yellow
+            With Label2
+                .Visible = True
+                .Top = 150
+                .Left = 20
+            End With
+            varError = Label2.Text
+            Label2.Text = Convert.ToString(Numero) + ", " + Label2.Text
             Me.Hide()
         Else
             btn(Numero).BackColor = Color.White
         End If
     End Sub
-
     Private Sub Button_KeyPress(ByVal sender As Object, ByVal e As KeyPressEventArgs) Handles Me.KeyPress
         Select Case e.KeyChar
 
@@ -81,6 +94,4 @@
                 End If
         End Select
     End Sub
-
-
 End Class

@@ -24,6 +24,8 @@ Partial Class frmBingo
     Private Sub InitializeComponent()
         Me.lblTitulo = New System.Windows.Forms.Label()
         Me.lblBorrar = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.btnAtras = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'lblTitulo
@@ -47,11 +49,31 @@ Partial Class frmBingo
         Me.lblBorrar.TabIndex = 1
         Me.lblBorrar.Text = "Modo Borrar: " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Activado"
         '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Location = New System.Drawing.Point(31, 149)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(26, 13)
+        Me.Label2.TabIndex = 2
+        Me.Label2.Text = "Ano"
+        '
+        'btnAtras
+        '
+        Me.btnAtras.Location = New System.Drawing.Point(873, 34)
+        Me.btnAtras.Name = "btnAtras"
+        Me.btnAtras.Size = New System.Drawing.Size(83, 38)
+        Me.btnAtras.TabIndex = 3
+        Me.btnAtras.Text = "Atrás"
+        Me.btnAtras.UseVisualStyleBackColor = True
+        '
         'frmBingo
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1034, 712)
+        Me.Controls.Add(Me.btnAtras)
+        Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.lblBorrar)
         Me.Controls.Add(Me.lblTitulo)
         Me.Name = "frmBingo"
@@ -64,4 +86,6 @@ Partial Class frmBingo
 
     Friend WithEvents lblTitulo As Label
     Friend WithEvents lblBorrar As Label
+    Friend WithEvents Label2 As Label
+    Friend WithEvents btnAtras As Button
 End Class
