@@ -29,19 +29,20 @@ Partial Class frmExposición
         'lblName
         '
         Me.lblName.AutoSize = True
-        Me.lblName.Font = New System.Drawing.Font("Comic Sans MS", 200.0!, System.Drawing.FontStyle.Bold)
-        Me.lblName.Location = New System.Drawing.Point(26, 21)
+        Me.lblName.Font = New System.Drawing.Font("Comic Sans MS", 300.0!, System.Drawing.FontStyle.Bold)
+        Me.lblName.Location = New System.Drawing.Point(-29, -37)
         Me.lblName.Name = "lblName"
-        Me.lblName.Size = New System.Drawing.Size(481, 372)
+        Me.lblName.Size = New System.Drawing.Size(721, 558)
         Me.lblName.TabIndex = 0
         Me.lblName.Text = "10"
+        Me.lblName.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'frmVolver
         '
         Me.frmVolver.Font = New System.Drawing.Font("Comic Sans MS", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.frmVolver.Location = New System.Drawing.Point(194, 396)
+        Me.frmVolver.Location = New System.Drawing.Point(162, 437)
         Me.frmVolver.Name = "frmVolver"
-        Me.frmVolver.Size = New System.Drawing.Size(124, 55)
+        Me.frmVolver.Size = New System.Drawing.Size(276, 109)
         Me.frmVolver.TabIndex = 1
         Me.frmVolver.Text = "Volver"
         Me.frmVolver.UseVisualStyleBackColor = True
@@ -50,7 +51,7 @@ Partial Class frmExposición
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(535, 477)
+        Me.ClientSize = New System.Drawing.Size(632, 614)
         Me.Controls.Add(Me.frmVolver)
         Me.Controls.Add(Me.lblName)
         Me.Name = "frmExposición"

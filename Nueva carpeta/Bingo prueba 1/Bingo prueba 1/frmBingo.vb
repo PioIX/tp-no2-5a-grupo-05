@@ -3,6 +3,7 @@
     Dim btn(90) As Button
     Dim i, a As Integer
     Private Delete As Boolean
+    Public Property AutoScale As Boolean
     Dim posicionX = 20, posicionY = 120
 
     Private Sub btnBut_Click(sender As Object, e As EventArgs)
@@ -39,10 +40,10 @@
                 .Tag = i
                 .BackColor = Color.White
                 .Font = New Font("Comic Sans MS", 30)
+
             End With
             If i < 10 Then
                 btn(i).Text = "0" & i
-                btn(i).Tag = "0" & i
             End If
             posicionX = posicionX + 100
             AddHandler btn(i).Click, AddressOf Button_Click
@@ -55,7 +56,7 @@
         If Delete = False Then
             frmExposición.Show()
             btn(Numero).BackColor = Color.Yellow
-            Me.Hide()
+            Me.Enabled = False
         Else
             btn(Numero).BackColor = Color.White
         End If
@@ -82,5 +83,9 @@
         End Select
     End Sub
 
-
+    Private Sub frmBingo_AutoSizeChanged(sender As Object, e As EventArgs) Handles Me.AutoSizeChanged
+        'For i = 1 To 90
+        'btn(i).Anchor = AnchorStyles.Right Or AnchorStyles.Bottom Or AnchorStyles.Top Or AnchorStyles.Right ' Bottom, Left, Right
+        'Next
+    End Sub
 End Class
